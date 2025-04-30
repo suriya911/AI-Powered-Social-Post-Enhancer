@@ -1,0 +1,14 @@
+# node
+node_modules/
+.next/
+out/
+# python
+__pycache__/
+*.pyc
+# env files
+.env
+.env.local
+# docker
+*.log
+Dockerfile
+.dockerignore
