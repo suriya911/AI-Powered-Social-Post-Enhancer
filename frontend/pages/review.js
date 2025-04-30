@@ -136,13 +136,15 @@ export default function Review() {
                 url = `https://www.facebook.com/sharer/sharer.php?quote=${encodeURIComponent(finalPost)}`;
                 break;
             case "Instagram":
+            case "Threads":
                 url = "https://www.instagram.com"; // or Threads.net
+                alert("Copy your enhanced post manually and paste it into Instagram/Threads.");
                 break;
             default:
                 alert("Unsupported platform selected.");
                 return;
         }
-        uk
+
         if (url) {
             window.open(url, "_blank");
         }
