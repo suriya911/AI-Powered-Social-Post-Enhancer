@@ -12,7 +12,7 @@ export default function ReviewForm({
     handlePost,
     imageUrl = ""
 }) {
-    const platforms = ["LinkedIn", "Twitter (X)", "Facebook", "Instagram", "Threads"];
+    const platforms = ["LinkedIn", "Twitter (X)", "Facebook", "Instagram(coming soon)", "Threads(coming soon)", "Many more..."];
     const [mounted, setMounted] = useState(false);
 
     useEffect(() => {
